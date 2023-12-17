@@ -414,6 +414,7 @@
   .description-web-1 {
     align-self: stretch;
     position: relative;
+    
   }
   .title-web-1 {
     letter-spacing: 0.4px;
@@ -424,14 +425,15 @@
     height: 66px;
     font-family: var(--poppins-h3-poppins-27px-semibold);
   }
-  .description-web-1 {
-    
+  .description-web-1 { 
     color: var(--color-black);
     font-size: 16px;
     line-height: 19.36px;
     width: 393px;
     height: 95px;
   }
+
+ 
   .button1 {
     border-radius: var(--br-9xs);
     background-color: var(--secondary-color);
@@ -442,6 +444,8 @@
     padding: var(--padding-xs) var(--padding-xl);
     font-size: var(--body-1-size);
     color: var(--color-white);
+    bottom: 100px;
+    color: white;
 
     left: 50px;
     
@@ -843,6 +847,7 @@
     left: 50%;
     transform: translateX(-78%);
     top: 128%;    
+    color: white;
 }
 
 .img-2-icon {
@@ -884,6 +889,7 @@
   transform: translateX(-70%); 
   color: black;
   display: inline;
+  
 }
 .button2-mob{
   border-radius: var(--br-9xs);
@@ -898,7 +904,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-78%);
-    top: 230%;    
+    top: 230%;  
+    color: white;  
 }
 
 .footer {
