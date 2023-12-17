@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body-1: Inter;
+    --font-lato: Lato;
+    --poppins-h3-poppins-27px-semibold: Poppins;
+  
+    /* font sizes */
+    --body-1-size: 14px;
+    --font-size-2xl: 21px;
+    --font-size-base: 16px;
+    --poppins-h3-poppins-27px-semibold-size: 27px;
+  
+    /* Colors */
+    --primary-color: #6B3CC9;
+    --secondary-color: #F28D35;
+    --analogous-color-1: #6A44F2;
+    --analogous-color-2: #1CBDDD;
+    --triadic-color-1: #52378C;
+    --dark-color: #78BF91,#4DCA79;
+    --text-color: #2F2F2F;
+    --text-color-light: #545A75;
+    --accent-color: #E2F2FE;
+    --accent-color-2: #FFF8E0;
+    --error-color: #FF0335;
+    --success-color: #5EB30B;
+    --white-color: #FFFFFF;
+
+    
+  
+    /* Gaps */
+    --gap-21xl: 40px;
+    --gap-5xs: 8px;
+    --gap-base: 16px;
+    --gap-109xl: 128px;
+    --gap-xs: 12px;
+    --gap-xl: 20px;
+    --gap-89xl: 108px;
+    --gap-9xl: 28px;
+  
+    /* Paddings */
+    --padding-21xl: 40px;
+    --padding-61xl: 80px;
+    --padding-xl: 20px;
+    --padding-xs: 12px;
+    --padding-7xl: 26px;
+  
+    /* Border radiuses */
+    --br-9xs: 4px;
+  }
+
+/* Styles for large screens (1200px) */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+
+  .title-mob-1,
+  .title-mob-2,
+  .description-mob-1,
+  .description-mob-2,
+  .button1formo,
+  .button2-mob,
+  .bar,
+  .logo-icon-mo{
+    display: none;
+  }
+  .hero-section,
+  .hero-image-icon,
+  .top-navigation,
+  .img-1-parent,
+  .frame-group,
+  .footer {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+}
+
+
+/* Styles for extra large screens (1440px) and above */
+@media only screen and (min-width: 1440px) {
+  .hero-section,
+  .hero-image-icon,
+  .top-navigation,
+  .img-1-parent,
+  .frame-group,
+  .footer {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+
+  .title-mob-1,
+  .title-mob-2,
+  .description-mob-1,
+  .description-mob-2,
+  .button1formo,
+  .button2-mob,
+  .bar,
+  .logo-icon-mo{
+    display: none;
+  }
+}
