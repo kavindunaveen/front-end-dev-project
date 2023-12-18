@@ -321,8 +321,8 @@
   }
 
   .top-navigation {
-    padding: var(--padding-xs) var(--padding-base); /* Adjust padding for smaller screens */
-    font-size: var(--font-size-base); /* Adjust font size for smaller screens */
+    padding: var(--padding-xs) var(--padding-base); 
+    font-size: var(--font-size-base); 
     height: 77px;
   }
 
@@ -340,8 +340,8 @@
     
   }
   .services {
-    font-size: 14px; /* Set the text size to 14px */
-    font-weight: 500; /* If needed, adjust font weight */
+    font-size: 14px; 
+    font-weight: 500; 
   }
 
   .logo-icon {
@@ -355,8 +355,6 @@
     object-fit: contain;
   }
 
- 
- 
   .btn-txt,
   .hero-txt-s {
     position: relative;
@@ -400,10 +398,6 @@
     Line-height:48px;
   }
 
-
-
-
-
   .img-1-icon {
     position: relative;
     width: 275px;
@@ -433,7 +427,6 @@
     height: 95px;
   }
 
- 
   .button1 {
     border-radius: var(--br-9xs);
     background-color: var(--secondary-color);
@@ -446,7 +439,6 @@
     color: var(--color-white);
     bottom: 100px;
     color: white;
-
     left: 50px;
     
   }
@@ -522,9 +514,7 @@
     right: 668px;
     bottom: 85px;
     gap: 12px;
-    
-  
-    
+       
   }
   .footer-tech-parent,
   .tech-items {
@@ -575,10 +565,6 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-
- 
-  
- 
  
   .footer {
     display: flex;
@@ -650,15 +636,10 @@
     right: 69px;
     bottom: 20px;
     top: 1975px;
-
   }
-
-
   .hero-image-icon {
-    height: auto; /* Allow the hero image to resize while maintaining aspect ratio */
+    height: auto; 
   }
-
- 
 }
 
 
@@ -695,22 +676,18 @@
     left: 330px;
     top: 41px;
     right: 15px;
-    bottom: 5px; /* Adjust the right distance based on your design */
+    bottom: 5px; 
     transform: translateY(-50%);
-    width: 31px; /* Adjust the width of the image */
-    height: 24px; /* Adjust the height of the image */
+    width: 31px; 
+    height: 24px; 
     border-radius: 0px;
     background: url('./img/nav.png') no-repeat center center;
     background-size: cover;
   }
 
- 
   .services {
-    display: none; /* Hide the services element */
+    display: none; 
   }
-
-  
-
 
   .hero-image-icon {
     height: auto; 
@@ -776,8 +753,6 @@
     line-height: 36px;
     
   }
-
-
 
   .title-web-1 {
     display: none; 
@@ -940,58 +915,57 @@
 }
 
 
-
 .logo-icon-mo {
-  position: relative; /* Change from absolute to relative positioning */
+  position: relative; 
   left: -20px;
   right: auto;
   top: auto;
   bottom: 550px;
-  width: 238.89px; /* Adjust the width if needed */
-  height: 36.11px; /* Adjust the height if needed */
-  margin: 0 auto; /* Center the logo horizontally */
-  display: block; /* Ensure it's a block element for margin to work */
+  width: 238.89px; 
+  height: 36.11px; 
+  margin: 0 auto; 
+  display: block; 
 }
 
 .footer-description {
-  width: 335px; /* Adjust the width if needed */
-  height: 76px; /* Adjust the height if needed */
+  width: 335px; 
+  height: 76px; 
   font-size: 16px;
   line-height: 19.2px;
-  text-align: left; /* Center the text horizontally */
-  margin: 0 auto; /* Center the element horizontally */
+  text-align: left; 
+  margin: 0 auto; 
   top: -540px;
   left: -20px;
   letter-spacing: 0.4px;
 }
 
 .tech-title {
-  width: 179px; /* Adjust width as needed */
-  height: 25px; /* Adjust height as needed */
+  width: 179px; 
+  height: 25px; 
   font-size: 21px;
   line-height: 25.41px;
-  text-align: left; /* Center the text horizontally */
+  text-align: left; 
   top: -380px;
   left: -354px;
   font-size: 21px;
 }
 .technology {
-  width: 60px; /* Adjust width as needed */
-  height: 17px; /* Adjust height as needed */
+  width: 60px;
+  height: 17px; 
   font-size: 21px;
   line-height: 16.94px;
-  text-align: left; /* Center the text horizontally */
+  text-align: left; 
   top: -375px;
   left: -354px;
   font-size: 14px;
 }
 
 .tech-title-mo{
-  width: 132px; /* Adjust width as needed */
-  height: 25px; /* Adjust height as needed */
+  width: 132px; 
+  height: 25px; 
   font-size: 21px;
   line-height: 25.41px;
-  text-align: left; /* Center the text horizontally */
+  text-align: left; 
   top: 2394px;
   left: 20px;
   right: 223px;
@@ -1001,31 +975,18 @@
 }
 
 .service {
-  width: 216px; /* Adjust width as needed */
-  height: 18px; /* Adjust height as needed */
+  width: 216px; 
+  height: 18px; 
   font-size: 21px;
   line-height: 16.94px;
-  text-align: left; /* Center the text horizontally */
+  text-align: left; 
   top: -170px;
   left: -679px;
   font-size: 14px;
 
 }
-
-
-
-
-
-
-
-
-
-
 .hero-image-icon {
-  height: auto; /* Allow the hero image to resize while maintaining aspect ratio */
+  height: auto; 
 }
-
-
-
 
 }
