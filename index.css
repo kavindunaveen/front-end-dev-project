@@ -298,6 +298,7 @@
 
  /* Styles for medium screens (768px) */
 @media only screen and (max-width: 768px) {
+
   .hero-section,
   .hero-image-icon,
   .top-navigation,
@@ -315,10 +316,12 @@
   .description-mob-2,
   .button1formo,
   .button2-mob,
-  .bar,
+  .footer-mob,
   .logo-icon-mo{
     display: none;
   }
+
+  
 
   .top-navigation {
     padding: var(--padding-xs) var(--padding-base); 
@@ -652,6 +655,10 @@
 /* Styles for extra small screens (375px) */
 @media only screen and (max-width: 375px) {
 
+  .footer-mob {
+    display: block;
+  }
+
   .top-navigation {
     padding: 20px 20px 26px 20px; 
     width: 375px; 
@@ -884,29 +891,126 @@
 }
 
 .footer {
-  display: flex;
+  display: none;  
+}
+
+.footer-mob {
   position: absolute;
+  width: 375px;
+  height: 790px;
+  top: 1830px;
   bottom: 0px;
   left: 0px;
-  background-color: var(--primary-color);
-  width: 768px;
-  height: 1400px;
-  top: 1800px;
-  padding: 40px 40px 20px 40px;
-  box-sizing: border-box;
-  font-size: var(--font-size-base);
-  font-family: var(--font-lato);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  
+  right: 0px;
+  gap: 40px;
+  background-color:#6B3CC9;  
 }
+
+.logo-for-mobile {
+  width: 238px;
+  height: 36.11px;
+  top: -11.11px;
+  left: 20px;
+  right: 116px;
+  bottom: 650px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.footer-description-mobile {
+  width: 335px;
+  height: 76px;
+  font-size: 16px;
+  line-height: 19.2px;
+  left: 20px;
+  right: 20px;
+  top: 239px;
+  bottom: 550px;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: white;
+  letter-spacing: 0.4px;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: var(--font-lato);
+}
+
+.tech-title-mobile {
+  width: 190px;
+  height: 25px;
+  font-size: 21px;
+  line-height: 25.41px;
+  left: 20px;
+  right: 223px;
+  bottom: 230px;
+  padding-left: 15px;
+  padding-top: 50px;
+  font-size: 21px;
+  font-family: var(--font-lato);
+  color: white;
+  font-weight: 400px;
+  letter-spacing: 0.2px;
+}
+
+.technology-mobile {
+  width: 30px;
+  height: 1px;
+  font-size: 21px;
+  line-height: 16.94px;
+  left: 20px;
+  right: 223px;
+  bottom: 230px;
+  padding-left: 15px;
+  padding-top: 28px;
+  font-size: 14px;
+  font-family:var(--font-lato);
+  color: white;
+  font-weight: 1;
+  letter-spacing: 0.8px;
+}
+
+.service-title-mobile {
+  width: 216px;
+  height: 18px;
+  font-size: 21px;
+  line-height: 16.94px;
+  left: 20px;
+  right: 223px;
+  bottom: 230px;
+  padding-left: 15px;
+  padding-top: 28px;
+  font-family: var(--font-lato);
+  color: white;
+  font-weight: 400px;
+  letter-spacing: 0.2px;
+  line-height: 95px;
+}
+
+.service-mobile {
+  width: 216px;
+  height: 5px;
+  font-size: 21px;
+  line-height: 16.94px;
+  left: 20px;
+  right: 223px;
+  bottom: 230px;
+  padding-left: 15px;
+  padding-top: 25px;
+  font-size: 14px;
+  font-family: var(--font-lato);
+  color: white;
+  font-weight: 1;
+  letter-spacing: 0.8px;
+  line-height: 95px;
+}
+
+
+
 .px {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 2500px;
+  height: 2450px;
   overflow: hidden;
   text-align: left;
   font-size: var(--poppins-h3-poppins-27px-semibold-size);
@@ -914,77 +1018,6 @@
   font-family: var(--body-1);
 }
 
-
-.logo-icon-mo {
-  position: relative; 
-  left: -20px;
-  right: auto;
-  top: auto;
-  bottom: 550px;
-  width: 238.89px; 
-  height: 36.11px; 
-  margin: 0 auto; 
-  display: block; 
-}
-
-.footer-description {
-  width: 335px; 
-  height: 76px; 
-  font-size: 16px;
-  line-height: 19.2px;
-  text-align: left; 
-  margin: 0 auto; 
-  top: -540px;
-  left: -20px;
-  letter-spacing: 0.4px;
-}
-
-.tech-title {
-  width: 179px; 
-  height: 25px; 
-  font-size: 21px;
-  line-height: 25.41px;
-  text-align: left; 
-  top: -380px;
-  left: -354px;
-  font-size: 21px;
-}
-.technology {
-  width: 60px;
-  height: 17px; 
-  font-size: 21px;
-  line-height: 16.94px;
-  text-align: left; 
-  top: -375px;
-  left: -354px;
-  font-size: 14px;
-}
-
-.tech-title-mo{
-  width: 132px; 
-  height: 25px; 
-  font-size: 21px;
-  line-height: 25.41px;
-  text-align: left; 
-  top: 2394px;
-  left: 20px;
-  right: 223px;
-  bottom: 230px;
-  font-size: 21px;
-
-}
-
-.service {
-  width: 216px; 
-  height: 18px; 
-  font-size: 21px;
-  line-height: 16.94px;
-  text-align: left; 
-  top: -170px;
-  left: -679px;
-  font-size: 14px;
-
-}
 .hero-image-icon {
   height: auto; 
 }

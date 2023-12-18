@@ -63,9 +63,11 @@ body {
   .button1formo,
   .button2-mob,
   .bar,
-  .logo-icon-mo{
+  .logo-icon-mo,
+  .footer-mob {
     display: none;
   }
+  
   .hero-section,
   .hero-image-icon,
   .top-navigation,
@@ -99,7 +101,8 @@ body {
   .button1formo,
   .button2-mob,
   .bar,
-  .logo-icon-mo{
+  .logo-icon-mo,
+  .footer-mob {
     display: none;
   }
 }
